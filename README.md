@@ -2,6 +2,7 @@
 Tic-Tac-Toe with Reinforcement Learning 🧠🎮
 This repository features a Tic-Tac-Toe game with a Reinforcement Learning (RL) agent implemented in Python. The RL agent is trained using the Q-learning algorithm to play optimally against a human opponent or another agent. The project leverages libraries like numpy and pandas for efficient board management and Q-value updates.
 
+
 Features 🚀
 Play Against the Agent: Test your skills by playing against the trained RL agent.
 Train the Agent: Train the agent over multiple episodes to improve its performance.
@@ -11,16 +12,19 @@ Efficient Algorithms: Uses Python libraries (numpy, pandas) for optimized perfor
 Installation 📦
 Clone the repository:
 
+
 bash
 Copy code
 git clone https://github.com/your-username/tic-tac-toe-rl.git
 cd tic-tac-toe-rl
 Install the required dependencies:
 
+
 bash
 Copy code
 pip install numpy pandas
 Run the script:
+
 
 bash
 Copy code
@@ -37,15 +41,18 @@ Loss: -1
 Usage 🎮
 Train the Agent:
 
+
 Select the "Train the agent" option in the menu.
 Specify the number of training episodes.
 The Q-table is updated and saved automatically after training.
 Play Against the Agent:
 
+
 Select the "Play against the agent" option in the menu.
 Make your move by entering a number (0-8) corresponding to the grid position.
 The agent plays as X and you play as O.
 Exit the Game:
+
 
 Select the "Exit" option to close the program.
 File Structure 📂
